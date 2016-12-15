@@ -79,6 +79,10 @@ body {
   width: 70em;
 }
 
+.center {
+  text-align: center;
+}
+
 @media screen and (max-width: 1680px) {
 
   .container.\31 25\25 {
@@ -2459,6 +2463,7 @@ input[type="radio"] + label:before {
 }
 
 .image img {
+  margin: 0 auto;
   border-radius: 4px;
   display: block;
 }
@@ -3349,10 +3354,10 @@ body.landing #header {
 }
 
 #banner:after {
-  background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.60), rgba(23, 24, 32, 0.60)), url("images/overlay.png");;
-  background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.60), rgba(23, 24, 32, 0.60)), url("images/overlay.png");;
-  background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.60), rgba(23, 24, 32, 0.60)), url("images/overlay.png");;
-  background-image: linear-gradient(top, rgba(23, 24, 32, 0.60), rgba(23, 24, 32, 0.60)), url("images/overlay.png");;
+  background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
+  background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
+  background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
+  background-image: linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)), url("images/overlay.png");;
   content: '';
   display: block;
   height: 100%;
@@ -3366,7 +3371,7 @@ body.landing #header {
   display: inline-block;
   margin-right: 1%;
   max-width: 95%;
-  padding: 6em;
+  padding: 5em;
   position: relative;
   text-align: right;
   vertical-align: middle;
@@ -3384,21 +3389,18 @@ body.landing #header {
 }
 
 #banner .content header p {
+  font-size: 1.3em;
   margin: 0.5em 0 0 0;
   top: 0;
 }
 
 #banner .content .image {
-  border-radius: 100%;
   display: inline-block;
-  height: 18em;
-  margin-left: 3em;
   vertical-align: middle;
-  width: 18em;
+  width: 28em;
 }
 
 #banner .content .image img {
-  border-radius: 100%;
   display: block;
   width: 100%;
 }
@@ -3720,7 +3722,6 @@ body.is-touch #banner {
   }
 
   #banner .content .image {
-    height: 9em;
     width: 9em;
   }
 
