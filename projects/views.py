@@ -2,7 +2,7 @@ from django.http import HttpResponse, response
 from django.shortcuts import render
 
 
-PAGE_TITLE = 'Clink|Capital'
+PAGE_TITLE = 'CLINK | CAPITAL'
 
 
 def index(request):
