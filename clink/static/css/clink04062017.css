@@ -1,0 +1,23 @@
+.enfasis {
+	color : #1f83dc;
+	font-size: 2.7rem;
+}
+figure.logo-client {
+	min-width: 300px;
+	/*background: #fefefe;*/
+	/*height: 250px;*/
+	/*width: 250px;*/
+	/*display: flex;*/
+	border-radius: 15px;
+	overflow: hidden;
+	/*padding: 0 !important;*/
+	/*margin: 0 auto;*/
+}
+figure.logo-client > img{
+	display: flex;
+	width: 100%;
+	align-self: center;
+	/*padding: 0 !important;*/
+	/*margin: 0 auto;*/
+
+}

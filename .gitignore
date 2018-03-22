@@ -89,4 +89,7 @@ ENV/
 # Rope project settings
 .ropeproject
 .idea/
-projects/migrations/
+projects/migrations/*
+!projects/migrations/__init__.py
+
+*.sqlite3
